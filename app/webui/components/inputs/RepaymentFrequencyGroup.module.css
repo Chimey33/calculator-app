@@ -1,0 +1,22 @@
+.frequency-group__container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 300px;
+    margin: 16px;
+}
+
+.label {
+    transform: none;
+}
+
+.frequency-group__button-group {
+    height: 56px;
+}
+
+.button:global(.MuiButtonBase-root) {
+    text-transform: unset;
+    min-width: max-content;
+    white-space: nowrap;
+    width: 100%;
+}

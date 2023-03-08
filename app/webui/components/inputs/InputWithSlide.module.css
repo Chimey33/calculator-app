@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    gap: 16px;
+    margin: 16px;
+}
+
+.input {
+    height: 50px;
+}
+
+.slider {
+    width: 95%;
+    margin: auto;
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        width: 100%;
+    }
+}
