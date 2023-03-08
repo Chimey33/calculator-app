@@ -1,6 +1,6 @@
 .personal-loan__container {
     display: flex;
-   flex-direction: column;
+    flex-direction: column;
     gap: 16px
 }
 
@@ -11,8 +11,13 @@
     row-gap: 16px;
 }
 
-.table {
+.calculate__button {
+    height: 56px;
+    text-transform: none;
+}
+
+.table__container {
     height: 500px;
     width: 500px;
-    overflow: hidden;
+    overflow: scroll;
 }
