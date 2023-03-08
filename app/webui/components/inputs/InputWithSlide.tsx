@@ -1,11 +1,9 @@
 "use client";
-import React, {useState} from 'react';
+import React from 'react';
 import styles from './InputWithSlide.module.css';
-import {InputAdornment, Slider} from "@mui/material";
+import {Slider} from "@mui/material";
 import InputWithLabel from './InputWithLabel'
-import {PersonalLoanCalcs} from "@/app/webui/components/calculators/PersonalLoans";
-
-type PersonalLoanCalcKeys = keyof PersonalLoanCalcs;
+import {PersonalLoanCalcKeys, PersonalLoanCalcs} from "@/app/webui/types/PersonalLoan";
 
 export interface InputWithSlideProps {
     min: number;
